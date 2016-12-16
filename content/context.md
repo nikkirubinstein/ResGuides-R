@@ -56,7 +56,7 @@ Once you open R files, an **editor** panel will also open in the top left. Here 
 
 ## The titanic dataset
 
-In this chapter we will be looking at survival rates of people on board the Titanic. Let’s see if we can work out who had the highest survival rate! Was it really women and children first? The dataset has 11 different columns, describing the characteristics of each of the people known to have been on board the Titanic. We are interested in 3 of these columns: 
+In this chapter we will be looking at survival rates of people on board the Titanic. This dataset was sourced from the data science competition website [Kaggle](https://www.kaggle.com/c/titanic). Let’s see if we can work out who had the highest survival rate! Was it really women and children first? The dataset has 11 different columns, describing the characteristics of each of the people known to have been on board the Titanic. We are interested in 3 of these columns: 
 
 1. Sex - were they female or male? 
 2. Passenger class (PClass) - were they in 1st, 2nd or 3rd class? 

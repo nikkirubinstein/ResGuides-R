@@ -30,7 +30,7 @@ Based on what you have learnt so far in this chapter, here is a challenge to tes
 
 ## Plotting challenge
 
-Your challenge is to modify the code in [this file](plottingChallenge.R), to create the <span style="color:red">u</span><span style="color:pink">g</span><span style="color:green">l</span><span style="color:blue">i</span><span style="color:orange">e</span><span style="color:yellow">s</span><span style="color:purple">t</span> plot possible. Refer to the [context](context#context) section for a description of the code and how to modify it.
+Your challenge is to modify the code in [this file](plottingChallenge.R), to create the <span style="color:red">u</span><span style="color:pink">g</span><span style="color:green">l</span><span style="color:blue">i</span><span style="color:orange">e</span><span style="color:yellow">s</span><span style="color:purple">t</span> plot possible. Refer to the [context](context.html) section for a description of the code and how to modify it.
 
 <!--sec data-title="Example of a pretty plot" data-id="tip1" data-show=true data-collapse=true ces-->
 ```{r}
