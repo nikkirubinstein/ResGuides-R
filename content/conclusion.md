@@ -1,24 +1,9 @@
 
-```{r include = FALSE}
-source("../tools/chunk-options.R")
-```
 
-# Creating functions
 
-```{r, include=FALSE}
-# Silently load in the data so the rest of the lesson works
-titanic <- read.csv("https://goo.gl/4Gqsnz", header=TRUE)
-```
+# Conclusion
 
-<!--sec data-title="Learning Objectives" data-id="obj" data-show=true data-collapse=false ces-->
 
-* Define a function that takes arguments.
-* Return a value from a function.
-* Test a function.
-* Set default values for function arguments.
-* Explain why we should divide programs into small, single-purpose functions.
-
-<!--endsec-->
 
 <br>
 
@@ -63,22 +48,24 @@ As the basic building block of most programming languages, user-defined function
 
 Let's open a new R script file in the `functions/` directory and call it functions-lesson.R.
 
-```{r}
+
+~~~sourcecode
 my_sum <- function(a, b) {
   the_sum <- a + b
   return(the_sum)
 }
-```
+~~~
 
 Let’s define a function fahr_to_kelvin that converts temperatures from Fahrenheit to Kelvin:
 
 <!-- all of the boredom-->
-```{r}
+
+~~~sourcecode
 fahr_to_kelvin <- function(temp) {
   kelvin <- ((temp - 32) * (5 / 9)) + 273.15
   return(kelvin)
 }
-```
+~~~
 
 We define `fahr_to_kelvin` by assigning it to the output of `function`.
 The list of argument names are contained within parentheses.
@@ -98,15 +85,31 @@ One feature unique to R is that the return statement is not required. R automati
 Let's try running our function.
 Calling our own function is no different from calling any other function:
 
-```{r}
+
+~~~sourcecode
 # freezing point of water
 fahr_to_kelvin(32)
-```
+~~~
 
-```{r}
+
+
+~~~output
+[1] 273.15
+
+~~~
+
+
+~~~sourcecode
 # boiling point of water
 fahr_to_kelvin(212)
-```
+~~~
+
+
+
+~~~output
+[1] 373.15
+
+~~~
 
 <!--sec data-title="Challenge 1" data-id="ch1" data-show=true data-collapse=false ces-->
 
@@ -128,7 +131,8 @@ into ever large chunks to get the effect we want.
 Let's define two functions that will convert temperature from Fahrenheit to
 Kelvin, and Kelvin to Celsius:
 
-```{r}
+
+~~~sourcecode
 fahr_to_kelvin <- function(temp) {
   kelvin <- ((temp - 32) * (5 / 9)) + 273.15
   return(kelvin)
@@ -138,7 +142,7 @@ kelvin_to_celsius <- function(temp) {
   celsius <- temp - 273.15
   return(celsius)
 }
-```
+~~~
 
 <!--sec data-title="Challenge 2" data-id="ch2" data-show=true data-collapse=false ces-->
 
@@ -155,13 +159,14 @@ Define the function to convert directly from Fahrenheit to Celsius, by reusing t
 We're going to define
 a function that calculates the average age in our titanic dataset:
 
-```{r}
+
+~~~sourcecode
 # Takes a dataset and calculates the average year of birth
 calcAgeAverage <- function(dat) {
   ageAverage <- mean(dat$Age, na.rm = TRUE)
   return(ageAverage)
 }
-```
+~~~
 
 Note, that because there are missing values in the dataset (`NA`s), we need to set the argument `na.rm=TRUE`, when calculating the mean.
 
@@ -183,38 +188,80 @@ return the results of whatever command is executed on the last line
 of the function.
 
 
-```{r}
+
+~~~sourcecode
 calcAgeAverage(titanic)
-```
+~~~
+
+
+
+~~~err
+Error in mean(dat$Age, na.rm = TRUE): object 'titanic' not found
+
+~~~
 
 Now, let's add another argument so we can calculate the average age for a particular gender.
 
-```{r}
+
+~~~sourcecode
 # Takes a dataset and calculates the average age for a
 # specified gender
 calcAgeAverage <- function(dat, sex = "female") {
   ageAverage <- mean(dat[dat$Sex == sex, ]$Age, na.rm = TRUE)
   return(ageAverage)
 }
-```
+~~~
 
 If you've been writing these functions down into a separate R script
 (a good idea!), you can load in the functions into our R session by using the
 `source` function:
 
-```{r, eval=FALSE}
+
+~~~sourcecode
 source("functions/functions-lesson.R")
-```
+~~~
 
 The function now subsets the provided data by sex before taking the average age. A default value of "female" is given for sex, so that if no value is specified when you call the function, the result of the function will be for females. You need to be careful when setting default values; sometimes you can get some unexpected behaviour from functions if you don't realise that an argument has a default value.
 
 Let's take a look at what happens when we specify the gender:
 
-```{r}
+
+~~~sourcecode
 calcAgeAverage(titanic,"female")
+~~~
+
+
+
+~~~err
+Error in mean(dat[dat$Sex == sex, ]$Age, na.rm = TRUE): object 'titanic' not found
+
+~~~
+
+
+
+~~~sourcecode
 calcAgeAverage(titanic,"male")
+~~~
+
+
+
+~~~err
+Error in mean(dat[dat$Sex == sex, ]$Age, na.rm = TRUE): object 'titanic' not found
+
+~~~
+
+
+
+~~~sourcecode
 calcAgeAverage(titanic)
-```
+~~~
+
+
+
+~~~err
+Error in mean(dat[dat$Sex == sex, ]$Age, na.rm = TRUE): object 'titanic' not found
+
+~~~
 
 What if we want to look at the average age for specific passenger classes?
 
@@ -242,16 +289,25 @@ Another important concept is scoping: any variables (or functions!) you create o
 
 The `paste` function can be used to combine text together, e.g:
 
-```{r}
+
+~~~sourcecode
 best_practice <- c("Write", "programs", "for", "people", "not", "computers")
 paste(best_practice, collapse=" ")
-```
+~~~
+
+
+
+~~~output
+[1] "Write programs for people not computers"
+
+~~~
 
 Write a function called `fence` that takes two vectors as arguments, called `text` and `wrapper`, and prints out the text wrapped with the `wrapper`:
 
-```{r, eval=FALSE}
+
+~~~sourcecode
 fence(text=best_practice, wrapper="***")
-```
+~~~
 
 *Note:* the `paste` function has an argument called `sep`, which specifies thevseparator between text. The default is a space: " ". The default for `paste0` is no space "".
 
@@ -305,12 +361,13 @@ Formal automated tests can be written using the [testthat][] package.
 
 Write a function called `kelvin_to_celsius` that takes a temperature in Kelvin and returns that temperature in Celsius
 
-```{r}
+
+~~~sourcecode
 kelvin_to_celsius <- function(temp) {
   celsius <- temp - 273.15
   return(celsius)
 }
-```
+~~~
 
 <!--endsec-->
 
@@ -318,13 +375,14 @@ kelvin_to_celsius <- function(temp) {
 
 Define the function to convert directly from Fahrenheit to Celsius, by reusing these two functions above
 
-```{r}
+
+~~~sourcecode
 fahr_to_celsius <- function(temp) {
    temp_k <- fahr_to_kelvin(temp)
    result <- kelvin_to_celsius(temp_k)
    return(result)
 }
-```
+~~~
 
 <!--endsec-->
 
@@ -332,12 +390,13 @@ fahr_to_celsius <- function(temp) {
 
 Define the function to calculate the average year of birth for specific year  levels of a single study group. Hint: Look up the function %in%, which will allow you to subset by multiple  year levels
 
-```{r}
+
+~~~sourcecode
 calcAgeAverage <- function(dat, sex, class) {
    ageAverage <- mean(dat[dat$Sex == sex & dat$Pclass %in% class, ]$Age, na.rm = TRUE)
    return(ageAverage)
 }
-```
+~~~
 
 <!--endsec-->
 
@@ -345,7 +404,8 @@ calcAgeAverage <- function(dat, sex, class) {
 
  Write a function called `fence` that takes two vectors as arguments, called `text` and `wrapper`, and prints out the text wrapped with the `wrapper`:
 
-```{r}
+
+~~~sourcecode
 fence <- function(text, wrapper){
    text <- c(wrapper, text, wrapper)
    result <- paste(text, collapse = " ")
@@ -353,6 +413,13 @@ fence <- function(text, wrapper){
 }
 best_practice <- c("Write", "programs", "for", "people", "not", "computers")
 fence(text=best_practice, wrapper="***")
-```
+~~~
+
+
+
+~~~output
+[1] "*** Write programs for people not computers ***"
+
+~~~
 
 <!--endsec-->

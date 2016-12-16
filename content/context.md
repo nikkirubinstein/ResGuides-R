@@ -95,8 +95,6 @@ percentageSurvival <- counts[,,2] / (counts[,,1] + counts[,,2]) * 100
 barplot(percentageSurvival, beside = TRUE)
 ~~~
 
-<img src="images/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
-
 <!--endsec-->
 
 Now that you have the code in front of you, let’s take a look at it (don't worry, you don't need to be able to reproduce this!). The first thing to note is that lines beginning with a hash are comments or notes to ourselves. This makes the code easier for both your future self and others to read and is otherwise ignored by the computer (always be kind to your future self by leaving descriptive comments!). 

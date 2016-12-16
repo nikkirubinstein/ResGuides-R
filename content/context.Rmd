@@ -72,7 +72,7 @@ Download the [code file for the challenge here](plottingChallenge.R), by right-c
 
 If you are having trouble downloading the code from the above link, you can use the code below. Open a new R Script in RStudio and paste the below text into your file.
 
-```{r}
+```{r, eval=FALSE}
 ############################################################################
 # R ResPitch Script
 # Read in and plot titanic dataset

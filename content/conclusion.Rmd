@@ -3,22 +3,9 @@
 source("../tools/chunk-options.R")
 ```
 
-# Creating functions
+# Conclusion
 
-```{r, include=FALSE}
-# Silently load in the data so the rest of the lesson works
-titanic <- read.csv("https://goo.gl/4Gqsnz", header=TRUE)
-```
 
-<!--sec data-title="Learning Objectives" data-id="obj" data-show=true data-collapse=false ces-->
-
-* Define a function that takes arguments.
-* Return a value from a function.
-* Test a function.
-* Set default values for function arguments.
-* Explain why we should divide programs into small, single-purpose functions.
-
-<!--endsec-->
 
 <br>
 
