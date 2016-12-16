@@ -3,6 +3,8 @@
 
 # Background
 
+In this section you will learn about using R for research.
+
 <br>
 
 ---
@@ -19,19 +21,27 @@
 
 R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, and is based on the programming language S (although normally you would expect S to come AFTER R!). The name R came from the first names of its two creators, as well as being a play on the name of S. The first stable version of R was released in 2000. At the date of writing this chapter, R is currently on version 3.3.2. 
 
+<br>
+
+---
+
 ## My journey to R
 
 I am currently enrolled in a PhD in the Department of Optometry and Vision Sciences at The University of Melbourne. Before the PhD, I completed both a Bachelor of Optometry and a Masters of Philosophy in optometry. 
 
 I didn’t know any programming when I started my PhD in 2013. Here we have some before and after pictures. During my masters reanalysing my data in excel was a nightmare. Painstakingly slow and prone to error during zombie-like copy and paste sessions. And I had to do it over and over. As my supervisor likes to say, that’s why it’s called RE-search. This will probably sound familiar to many of you who have undertaken any research projects. Now I use R. When my data changes, it’s just modifying a few commands to rerun my analyses and generate new plots. Much faster and much less error-prone. 
 
-| [![Before](images/before.png)  | [![After](images/after.png) |
+![Before](images/before.png){ width=250px } ![After](images/after.png){ width=250px } 
+
+<br>
+
+---
 
 ## Why use R?
 
 Is R a tool that you should be using? Do you have data that you need to manipulate? Do you need to perform statistical analyses? Do you need to plot your data? Do you think that graphs produced by Microsoft Excel are ugly? If you answered yes to any of these questions, then R may be the tool for you! Did I mention that it’s free? If you’re not sold yet, here is a list of some of the groups in the university that are using R. If your area of research is mentioned, R may be for you.
 
-![Departments at the university that use R](images/university_depts)
+![Departments at the university that use R](images/university_depts.png)
 
 <br>
 

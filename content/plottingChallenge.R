@@ -18,4 +18,4 @@ percentageSurvival <- counts[,,2] / (counts[,,1] + counts[,,2]) * 100
 
 
 # plot the results as a bar plot
-barplot(percentageSurvival, beside =T)
+barplot(percentageSurvival, beside = TRUE)

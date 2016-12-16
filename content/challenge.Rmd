@@ -26,6 +26,25 @@ titanic <- read.csv("https://goo.gl/4Gqsnz", header=TRUE)
 
 Your challenge is to modify the code in [this file](plottingChallenge.R), to create the <span style="color:red">u</span><span style="color:pink">g</span><span style="color:green">l</span><span style="color:blue">i</span><span style="color:orange">e</span><span style="color:yellow">s</span><span style="color:purple">t</span> plot possible. Refer to the [context](context) section for a description of the code and how to modify it.
 
+<!--sec data-title="Example of a nice plot" data-id="tip1" data-show=true data-collapse=true ces-->
+```{r}
+par(bg = "white")
+barplot(percentageSurvival, 
+        beside = TRUE, 
+        col = c("pink", "lightblue"),
+        border = c("red", "blue"),
+        legend = TRUE, 
+        args.legend = list(bty = "n", y = 100, x = 9), 
+        ylim = c(0, 100),  
+        xlab = "passenger class", 
+        ylab = "percentage survived", 
+        main = "Who survived the titanic?")
+```
+<!--endsec-->
+
+<br>
+---
+
 ## Plotting parameters 
 
 Below is a list of plotting parameters that you may consider modifying for this challenge (don't forget to add a comma before each additional argument):
