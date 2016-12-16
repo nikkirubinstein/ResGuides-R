@@ -49,7 +49,7 @@ When you first open RStudio, you will be greeted by three panels:
 Once you open R files, an **editor** panel will also open in the top left. Here you can write instructions to the computer that can be saved (unlike writing in the console). This is much like saving text in a Word document for later use. You can create a new R document by going to File > New File > R Script. If you want the computer to perform the instructions in the file that is open in the editor panel, simply highlight the code with your cursor and press the Run button (circled in blue below), or hold down CTRL + ENTER.
 
 ![RStudio interface](images/RStudio_interface.png)
-The RStudio interface
+<center> The RStudio interface </center>
 
 <br>
 
@@ -64,7 +64,7 @@ In this chapter we will be looking at survival rates of people on board the Tita
 2. Passenger class (PClass) - were they in 1st, 2nd or 3rd class? 
 3. Survived - did they survive the titanic? 
 
-![The Titanic](images\titanic.jpg)(http://www.uwants.com/viewthread.php?tid=3817223&extra=page%3D1)
+[![The Titanic](images\titanic.jpg)](http://www.uwants.com/viewthread.php?tid=3817223&extra=page%3D1)
 
 Download the [code file for the challenge here](plottingChallenge.R), by right-clicking on the link and choosing 'save link as...'. To open the file in RStudio, go to File > Open File.... Then select the file that you just donloaded. The code should appear in the Editor panel. 
 

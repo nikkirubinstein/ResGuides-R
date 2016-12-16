@@ -31,9 +31,13 @@ R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, 
 
 I am currently enrolled in a PhD in the Department of Optometry and Vision Sciences at The University of Melbourne. Before the PhD, I completed both a Bachelor of Optometry and a Masters of Philosophy in optometry. 
 
-I didn’t know any programming when I started my PhD in 2013. Here we have some before and after pictures. During my masters reanalysing my data in excel was a nightmare. Painstakingly slow and prone to error during zombie-like copy and paste sessions. And I had to do it over and over. As my supervisor likes to say, that’s why it’s called RE-search. This will probably sound familiar to many of you who have undertaken any research projects. Now I use R. When my data changes, it’s just modifying a few commands to rerun my analyses and generate new plots. Much faster and much less error-prone. 
+I didn’t know any programming when I started my PhD in 2013. Here we have some before and after pictures. During my masters reanalysing my data in excel was a nightmare. Painstakingly slow and prone to error during zombie-like copy and paste sessions. And I had to reanalyse my data *over* and *over*. As my supervisor likes to say, that’s why it’s called RE-search. This will probably sound familiar to many of you who have undertaken any research. 
 
-![Before](images/before.png){ width=250px } ![After](images/after.png){ width=250px } 
+But now I use R. When my data changes, I just modify a few commands to rerun my analyses and generate new plots. Much faster and much less error-prone. 
+
+<img src="images/before.png" width="100">
+<img src="images/after.png" width="100">
+<!--![Before](images/before.png){ width=250px } ![After](images/after.png){ width=250px }--> 
 
 <br>
 
