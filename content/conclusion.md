@@ -3,7 +3,7 @@
 
 # Conclusion
 
-
+This section summarises the content of this chapter and provides references for further 
 
 <br>
 
