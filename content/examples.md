@@ -3,6 +3,8 @@
 
 # Examples 
 
+This section covers a few examples of figures that have been produced in R and published in peer-reviewed journals.
+
 <br>
 
 --- 
