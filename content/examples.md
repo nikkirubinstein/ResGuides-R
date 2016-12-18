@@ -23,9 +23,15 @@ For my PhD, I have developed a new algorithm for a piece of optometry equipment 
 
 The below figure shows simulated results for a variety of patterns of visual field loss. The left column gives the pattern of visual field loss, the middle column gives the results from a current clinical algorithm (ZEST) and the right column gives the results from my new algorithm (SWeLZ). Smaller numbers (represented by darker colouring) represent areas of visual sensitivity loss. 
 
+<br>
+
 [![Heat maps](http://tvst.arvojournals.org/data/Journals/TVST/935082/i2164-2591-5-2-7-f06.png)](http://tvst.arvojournals.org/article.aspx?articleid=2503073&resultClick=1)
 
-<center>[Rubinstein, N. J., McKendrick, A. M., & Turpin, A. (2016). Incorporating Spatial Models in Visual Field Test Procedures. Translational Vision Science & Technology, 5(2), 7-7. doi: 10.1167/tvst.5.2.7.](http://tvst.arvojournals.org/article.aspx?articleid=2503073&resultClick=1) Available under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0). </center>
+[Rubinstein, N. J., McKendrick, A. M., & Turpin, A. (2016). Incorporating Spatial Models in Visual Field Test Procedures. Translational Vision Science & Technology, 5(2), 7-7. doi: 10.1167/tvst.5.2.7.](http://tvst.arvojournals.org/article.aspx?articleid=2503073&resultClick=1) Available under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0). 
+
+<br>
+
+--- 
 
 ## Ecology
 
@@ -33,9 +39,15 @@ This next figure comes from an article published in Scientific Reports in 2016, 
 
 This figure displays the results of a structural equation model relating carbon storage, functional dominance of leaf traits and fine-scale environmental factors. Both the modeling and visualisation were performed using R.
 
+<br>
+
 [![Structural equation modeling](http://www.nature.com/article-assets/npg/srep/2016/160609/srep25304/images/w926/srep25304-f2.jpg)](http://www.nature.com/articles/srep25304)
 
-<center>[Shen, Y., Yu, S., Lian, J., Shen, H., Cao, H., Lu, H., & Ye, W. (2016). Tree aboveground carbon storage correlates with environmental gradients and functional diversity in a tropical forest. Scientific Reports, 6, 25304. doi: 10.1038/srep25304.](http://rdcu.be/nVGC). Available under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). </center>
+[Shen, Y., Yu, S., Lian, J., Shen, H., Cao, H., Lu, H., & Ye, W. (2016). Tree aboveground carbon storage correlates with environmental gradients and functional diversity in a tropical forest. Scientific Reports, 6, 25304. doi: 10.1038/srep25304.](http://rdcu.be/nVGC). Available under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+
+<br>
+
+--- 
 
 ## Bioinformatics
 
@@ -43,6 +55,8 @@ This final figure comes from an article published in Nature Microbiology in 2016
 
 In this figure the *Codakia orbicularis* gene clusters (middle) are compared to the genomes of *Allochromatium vinosum* DMS 180 (top) and *Sedimenticola thiotaurini* SIP-G1 (bottom). 
 
+<br>
+
 [![Gene clusters](http://www.nature.com/article-assets/npg/nmicrobiol/2016/nmicrobiol2016193/images_hires/w926/nmicrobiol2016193-f1.jpg)](http://www.nature.com/articles/nmicrobiol2016193?WT.feed_name=subjects_bacteria)
 
-<center>[König, S., Gros, O., Heiden, S. E., Hinzke, T., Thürmer, A., Poehlein, A., . . . Markert, S. (2016). Nitrogen fixation in a chemoautotrophic lucinid symbiosis. Nature Microbiology, 2, 16193. doi: 10.1038/nmicrobiol.2016.193.](http://www.nature.com/articles/nmicrobiol2016193?WT.feed_name=subjects_bacteria) Available under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).</center>
+[König, S., Gros, O., Heiden, S. E., Hinzke, T., Thürmer, A., Poehlein, A., . . . Markert, S. (2016). Nitrogen fixation in a chemoautotrophic lucinid symbiosis. Nature Microbiology, 2, 16193. doi: 10.1038/nmicrobiol.2016.193.](http://www.nature.com/articles/nmicrobiol2016193?WT.feed_name=subjects_bacteria) Available under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
