@@ -34,6 +34,7 @@ barplot(percentageSurvival,
         legend = TRUE, 
         args.legend = list(bty = "n", y = 100, x = 9), 
         ylim = c(0, 100),  
+        las = 1,
         xlab = "passenger class", 
         ylab = "percentage survived", 
         main = "Who survived the titanic?")
