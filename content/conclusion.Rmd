@@ -21,7 +21,7 @@ This section summarises the content of this chapter and provides resources for f
 
 ## What you have learnt from this chapter
 
-This chapter has give you a taster for R: you’ve learnt about the user interface, writing scripts, commenting scripts and creating barplots. And if you completed the challenge, you have managed to modify the arguments of the barplot to create some fantastically ugly plots.
+This chapter has given you a taster for R: you’ve learnt about the user interface, writing scripts, commenting scripts and creating barplots. And if you completed the challenge, you have managed to modify the arguments of the barplot to create some fantastically ugly plots.
 
 <br>
 
@@ -39,7 +39,7 @@ If you would like to learn more R or just really want to learn more about surviv
  
 If you’d like to learn more about how people are using R or want to hear me do a terrible pirate impersonation (aaRRRR), you can contact me on twitter (handle [@nikkirubinstein](https://twitter.com/nikkirubinstein)) or through our Facebook group ([R @ Unimelb](https://www.facebook.com/groups/RUnimelb)).
 
-You can also come see us at [Hacky Hour](http://melbourne.resbaz.edu.au/hackyhour): 3-4pm on Thursdays at Tsubu. We would love to discuss your programming challenges.
+You can also come see us at [Hacky Hour](http://melbourne.resbaz.edu.au/hackyhour): 3-4pm on Thursdays at [Tsubu](http://tsububar.com.au/). We would love to discuss your programming challenges.
 
 <br>
 
@@ -52,7 +52,7 @@ You can also come see us at [Hacky Hour](http://melbourne.resbaz.edu.au/hackyhou
 * [MIT Open Courseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-094-introduction-to-matlab-january-iap-2010/)
 * [Coursera Data Science Specialisation](https://www.coursera.org/specializations/jhu-data-science)
 
-Hadley Wickham's book [R for Data Science](http://r4ds.had.co.nz/) also provides a good starting point for learing R.
+Hadley Wickham's book [R for Data Science](http://r4ds.had.co.nz/) also provides a good starting point for learning R.
 
 
 <br>

@@ -33,8 +33,8 @@ I didn’t know any programming when I started my PhD in 2013. Here we have some
 
 But now I use R. When my data changes, I just modify a few commands to rerun my analyses and generate new plots. This process is much faster and much less error-prone. 
 
-<img src="images/before.png" width="350">
-<img src="images/after.png" width="350">
+<img src="images/before.png" width="370">
+<img src="images/after.png" width="370">
 <!--![Before](images/before.png){ width=250px } ![After](images/after.png){ width=250px }--> 
 
 <br>
