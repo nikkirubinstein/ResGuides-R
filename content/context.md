@@ -49,6 +49,12 @@ Once you open R files, an **editor** panel will also open in the top left. Here 
 ![RStudio interface](images/RStudio_interface.png)
 <center> The RStudio interface </center>
 
+<!--sec data-title="Teaching Tip: Display resolution" data-id="tip3" data-show=true data-collapse=true ces-->
+
+When coding on a screen, make sure that the resolution allows the person at the back of the room to read your code. Don't be afraid of zooming in!
+
+<!--endsec-->
+
 <br>
 
 ---

@@ -19,6 +19,17 @@ Based on what you have learnt so far in this chapter, here is a challenge to tes
 
 ---
 
+## Learning objectives
+
+* Familiarise yourself with the RStudio environment
+* Learn to run code in RStudio
+* Familiarise yourself with code by modifying a pre-written plotting function
+* Engage your creative side
+
+<br>
+
+---
+
 ## Plotting challenge
 
 Your challenge is to modify the code in [this file](plottingChallenge.R), to create the <span style="color:red">u</span><span style="color:pink">g</span><span style="color:green">l</span><span style="color:blue">i</span><span style="color:orange">e</span><span style="color:yellow">s</span><span style="color:purple">t</span> plot possible. Refer to the [context](context.html) section for a description of the code and how to modify it.
@@ -42,6 +53,20 @@ barplot(percentageSurvival,
 
 <img src="images/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 <!--endsec-->
+
+<!--sec data-title="Teaching Tip: Use a timer" data-id="tip2" data-show=true data-collapse=true ces-->
+
+Make sure to time the challenge! The challenge is more fun if feels like a race between teams. And make sure to have a prize ready for the UGLIEST plot.
+
+<!--endsec-->
+
+<br>
+
+---
+
+## Bonus challenge
+
+If you're finding the above challenge too easy, how about creating your own plots from the `titanic` data? You may need some extra R knowledge for this one! Check out our [introductory course materials](https://nikkirubinstein.gitbooks.io/resguides-introductory-r-workshop/content/) for help. 
 
 <br>
 
